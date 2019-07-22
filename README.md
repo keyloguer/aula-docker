@@ -30,8 +30,8 @@ Para entender melhor os comandos do Dockerfile estou deixando abaixo o link da d
 
 Agora vá na pasta exemplo1 e rode os comandos 3 e 4:
 
-1. docker build -t exemplo1 .
-2. docker run -it exemplo1 bash
+3. docker build -t exemplo1 .
+4. docker run -it exemplo1 bash
 
 > O comando build constrói o Dockerfile e gera uma imagem para se transformar em container e o parâmetro -t gera uma tag(nome) para imagem.
 
