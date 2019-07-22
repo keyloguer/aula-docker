@@ -55,7 +55,7 @@ Para iniciarmos os ambientes de desenvolvimento foi criado um Dockerfile com a i
 
 > O Dockerfile presente na pasta exemplo3, permite trabalhar dentro de um ambiente onde possui a linguagem python instalada. O arquivo app.py foi carregado para a imagem e o arquivo teste foi criado depois de rodar o projeto utilizando o comando 9:
 
-9. docker run -v \${PWD}:/app -it exemplo2 bash
+9. docker run -v ${PWD}:/app -it exemplo3 bash
 
 > O parâmetro -v mostrado no comando 9, executa volumes para o container, que com isso podemos exergar a pasta do nosso computador onde o comando foi executado.
 
