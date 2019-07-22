@@ -4,6 +4,8 @@ Slides da apresentação estão em:
 
 https://docs.google.com/presentation/d/1KWSE01eY4VQg-0NSHTzhPLxluaKhZYh8FL3qWc80DIQ/edit?usp=sharing
 
+## Aula 1
+
 ---
 
 Para começar rode o comando 1:
@@ -26,10 +28,10 @@ Para entender melhor os comandos do Dockerfile estou deixando abaixo o link da d
 
 ---
 
-Agora vá na pasta exemploinicial e rode os comandos 3 e 4:
+Agora vá na pasta exemplo1 e rode os comandos 3 e 4:
 
-3. docker build -t exemploinicial .
-4. docker run -it exemploinicial bash
+1. docker build -t exemplo1 .
+2. docker run -it exemplo1 bash
 
 > O comando build constrói o Dockerfile e gera uma imagem para se transformar em container e o parâmetro -t gera uma tag(nome) para imagem.
 
@@ -56,3 +58,17 @@ Para iniciarmos os ambientes de desenvolvimento foi criado um Dockerfile com a i
 9. docker run -v \${PWD}:/app -it exemplo2 bash
 
 > O parâmetro -v mostrado no comando 9, executa volumes para o container, que com isso podemos exergar a pasta do nosso computador onde o comando foi executado.
+
+## Aula 2
+
+Hoje vimos a importância da ordem dos comando dentro de um Dockerfile e como funciona o docker-compose.
+
+Agora para buildar os projetos exemplo 4 e 5 basta dar o comando 1.
+
+1. docker-compose up
+
+> como podemos ver a chave **volumes** nos permite espelhar arquivos da nossa máquina para o docker e com isso podemos trabalhar imitando o ambiente local.
+
+> a chave **ports** nos mostra as portas da nossa aplicação sempre do lado direito a porta real do nosso projeto, e a da esquerda a porta que será exposta para o mundo externo.
+
+> por último a chave **command** serve para sobrescrever o comando dado dentro do Dockerfile(**CMD**).

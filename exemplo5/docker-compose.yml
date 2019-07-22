@@ -1,0 +1,10 @@
+version: '3'
+services:
+    web:
+      build: .
+      container_name: exemplo5
+      volumes:
+        - ${PWD}/node_modules
+        - ${PWD}:/app
+      ports:
+        - 80:4200
