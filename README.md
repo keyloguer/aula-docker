@@ -51,7 +51,7 @@ Vá na pasta exemplo2 e rode os comandos:
 Para iniciarmos os ambientes de desenvolvimento foi criado um Dockerfile com a imagem do python3 carregado um arquivo para dentro da imagem.
 
 7. docker build -t exemplo3 .
-8. docker run -it exemplo2 bash
+8. docker run -it exemplo3 bash
 
 > O Dockerfile presente na pasta exemplo3, permite trabalhar dentro de um ambiente onde possui a linguagem python instalada. O arquivo app.py foi carregado para a imagem e o arquivo teste foi criado depois de rodar o projeto utilizando o comando 9:
 
