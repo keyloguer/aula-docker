@@ -72,3 +72,10 @@ Agora para buildar os projetos exemplo 4 e 5 basta dar o comando 1.
 > a chave **ports** nos mostra as portas da nossa aplicação sempre do lado direito a porta real do nosso projeto, e a da esquerda a porta que será exposta para o mundo externo.
 
 > por último a chave **command** serve para sobrescrever o comando dado dentro do Dockerfile(**CMD**).
+
+## Aula 3
+
+Na aula de hoje vimos como subir uma aplicação dotnet e como configurar o arquivo appsettings.json para conseguir conversar com o banco de dados. Outra lição importante que aprendemos foi a de relacionar os serviços dentro do nosso sistema utilzando a chave depends_on.
+Vimos também como criar tags para os nossos containers utilizando o comando 1.
+
+1. docker build -t exemplo6:0.1 .

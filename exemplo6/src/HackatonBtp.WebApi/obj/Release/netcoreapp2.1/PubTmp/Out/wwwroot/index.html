@@ -1,0 +1,573 @@
+﻿<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/progress-tracker.css">
+    <link rel="stylesheet" href="css/jquery.loadingModal.min.css">
+    <link rel="stylesheet" href="css/icheck-bootstrap.min.css">
+
+    <title>Hackathon BTP:CODE</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <canvas id="canvas" width="1950px" height="1500px"></canvas>
+        <canvas id="canvasbg" width="1950px" height="1500px"></canvas>
+    </div>
+    <header id="container2">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light text-center">
+            <div class="container text-uppercase">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/btpcode.png" alt="BTP Code" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+						 <li class="nav-item mx-3">
+                            <a class="nav-link" href="regulamento.pdf" target="_blank">Regulamento</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <button class="btn btn-sm btn-cadastre text-uppercase mt-1" type="button" data-toggle="modal"
+                                data-target="#modalCadastro">Cadastre-se</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-12 mt-5">
+                    <p class="data"><span class="text-chaves">{</span><span class="text-dia">06</span> e <span class="text-dia">07</span>
+                        de Abril, 2019<span class="text-chaves">}</span></p>
+                </div>
+                <div class="col-12">
+                    <h1 class="text-uppercase">
+                        <small>Você está preparado para o</small><br><strong>hackathon dos portos?</strong>
+                    </h1>
+                    <br>
+                    <h2>Se sim, leia o regulamento e cadastre-se.</h2>
+                </div>
+               <!-- <div class="col-12">
+                    <button class="btn btn-sm btn-cadastre text-uppercase my-4" type="button" data-toggle="modal"
+                        data-target="#modalCadastro">Cadastre-se</button>
+                </div> -->
+                <div class="col-12 mt-4">
+                    <p>
+                        <img src="images/btpcode.png" alt="BTP Code" width="300">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="linha-azul">
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="circulo-azul d-none d-lg-block">
+                    <p>
+                        <img src="images/icons/idea.png" alt="Ícone de Ideia">
+                    </p>
+                    <p>Você tem uma mente criativa?</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="circulo-azul d-none d-lg-block">
+                    <p>
+                        <img src="images/icons/thumbnail_RTG.png" alt="Ícone de Navio de Carga">
+                    </p>
+                    <p>Quer participar de um grande desafio?</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="circulo-azul d-none d-lg-block">
+                    <p>
+                        <img src="images/icons/team.png" alt="Ícone de Time">
+                    </p>
+                    <p>Participe e seja um vencedor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <br>
+                <h2 class="text-uppercase mt-5">
+                    <small>O maior porto da América Latina não será mais o mesmo e você fará parte deste momento.</small>
+                    <br>
+                    <br>
+                    <strong>Inovação? Presente!</strong>
+                </h2>
+                <img class="img-fluid my-5" src="images/btpcode.png" alt="logo BTP Code">
+            </div>
+        </div>
+
+    </div>
+    <div class="oquee">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-xl-7 pt-5">
+                    <h3 class="mb-5 text-uppercase">
+                        O que é o<br>{BTP:CODE}?
+                    </h3>
+                    <p>
+                        É um Hackathon focado no mercado portuário.
+                    </p>
+                    <p>
+                        Através de uma maratona de 30 horas os apaixonados por tecnologia e inovação desenvolvem
+                        soluções para problemas reais.
+                    </p>
+                    <p>
+                        Após a maratona as equipes terão alguns minutos para apresentarem suas ideias onde serão
+                        avaliados pela banca de jurados.
+                    </p>
+                    <p>
+                        As equipes vencedoras deste desafio serão premiadas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center mt-5">
+            <div class="col-12 mb-5">
+                <h3 class="text-uppercase">
+                    Premiação
+                </h3>
+            </div>
+            <div class="col-12 premios">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 order-2 order-md-1">
+                            <div class="premio mx-auto mt-lg-3">
+                                <img src="images/estrela-2.png" alt="Segundo Lugar">
+                                <br>
+                                <p>2</p>
+                            </div>
+                            <div class="row">
+                                <div class="mx-auto">
+                                    <div class="trema-premios float-left mr-3"></div>
+                                    <div class="trema-premios float-left ml-3"></div>
+                                </div>
+                            </div>
+                            <p class="premio-descricao segundo-lugar">
+                                Chromecast 3 <br>
+								+ Programa de empreendedorismo IBM
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 order-1 order-md-2">
+                            <div class="premio mx-auto">
+                                <img src="images/estrela-1.png" alt="Primeiro Lugar">
+                                <br>
+                                <p>1</p>
+                            </div>
+                            <div class="row">
+                                <div class="mx-auto">
+                                    <div class="trema-premios float-left mr-3"></div>
+                                    <div class="trema-premios float-left ml-3"></div>
+                                </div>
+                            </div>
+                            <p class="premio-descricao primeiro-lugar">
+                                MacBook Air <br>
+								+ Programa de empreendedorismo IBM
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-12 order-3">
+                            <div class="premio mx-auto mt-lg-5">
+                                <img src="images/estrela-3.png" alt="Terceiro Lugar">
+                                <br>
+                                <p>3</p>
+                            </div>
+                            <div class="row">
+                                <div class="mx-auto">
+                                    <div class="trema-premios float-left mr-3"></div>
+                                    <div class="trema-premios float-left ml-3"></div>
+                                </div>
+                            </div>
+                            <p class="premio-descricao terceiro-lugar">
+                                Google Home Mini<br>
+								+ Programa de empreendedorismo IBM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center mt-5">
+            <div class="col-12">
+                <h3 class="text-uppercase">
+                    Fique atento aos prazos
+                </h3>
+            </div>
+            <div class="col-12 d-none d-lg-block">
+                <ul class="progress-tracker progress-tracker--center progress-tracker--text-top">
+                    <!--<li class="progress-step is-complete">-->
+                    <li class="progress-step is-active">
+                        <span class="progress-text">
+                            <h4 class="progress-title">Início das inscrições</h4>
+                            <span class="data-calendario">12/03</span>
+                            <p>&#60;inscrições&#62;</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Pré-lançamento do desafio na Intermodal 2019</h4>
+                            <span class="data-calendario">19/03</span>
+                            <p class="future">intermodal()</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Encerramento das inscrições</h4>
+                            <span class="data-calendario">31/03</span>
+                            <p class="future">&#60;/inscrições&#62;</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Definição e seleção dos aprovados e suas equipes</h4>
+                            <span class="data-calendario">01/04</span>
+                            <p class="future">[escolhidos]</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Maratona do HACKATHON</h4>
+                            <span class="data-calendario">06/04<span>das 9:00 até </span>07/04<span>às 15:00</span></span>
+                            <p class="future">hackathon()</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Apresentação final das equipes aos jurados</h4>
+                            <span class="data-calendario">07/04<span>às 15:00</span></span>
+                            <p class="future">apresentação()</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Premiação das equipes vencedoras</h4>
+                            <span class="data-calendario">07/04<span>às 16:30</span></span>
+                            <p class="future">premiação()</p>
+                        </span>
+                        <span class="progress-marker"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 d-lg-none">
+                <ul class="progress-tracker progress-tracker--vertical">
+                    <li class="progress-step is-active">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title">Início das inscrições</h4>
+                            <span class="data-calendario">11/03</span>
+                            <p>&#60;inscrições&#62;</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Encerramento das inscrições</h4>
+                            <span class="data-calendario">31/03</span>
+                            <p class="future">&#60;/inscrições&#62;</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Definição e seleção dos aprovados e suas equipes</h4>
+                            <span class="data-calendario">03/04</span>
+                            <p class="future">[escolhidos]</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Esquenta na web e divulgação do desafio</h4>
+                            <span class="data-calendario">10/04</span>
+                            <p class="future">esquenta()</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Maratona do HACKATHON</h4>
+                            <span class="data-calendario">06/04<span>das 9:00 até </span>07/04<span>às 17:00</span></span>
+                            <p class="future">hackathon()</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Apresentação final das equipes aos jurados</h4>
+                            <span class="data-calendario">07/04<span>às 15:00</span></span>
+                            <p class="future">apresentação()</p>
+                        </span>
+                    </li>
+
+                    <li class="progress-step">
+                        <span class="progress-marker"></span>
+                        <span class="progress-text">
+                            <h4 class="progress-title future">Premiação das equipes vencedoras</h4>
+                            <span class="data-calendario">07/04<span>às 16:30</span></span>
+                            <p class="future">premiação()</p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-center mt-5 intermodal">
+            <div class="col-12 my-4">
+                <p class="my-4">
+                    <a href="http://btp.com.br" target="_blank"><img class="mr-2" src="images/btp.png" alt="Logo BTP"></a>
+                    <a href="http://www.modalgr.com.br" target="_blank"><img class="ml-2" src="images/modalgr.png" alt="Logo ModalGR"></a>
+                </p>
+                <h5 class="font-weight-bold">
+                    Conheça mais a BTP e a ModalGR durante a Intermodal!
+                </h5>
+
+                <br>
+                <h5>25ª Edição Intermodal South América. </h5>
+                <p class="font-weight-bold">
+                    De 19 a 21 de Março, das 13 horas às 21 horas.
+                </p>
+                <p>
+                    Uma grande oportunidade de conhecer de perto as inovações da BTP e as soluções da ModalGR.
+                </p>
+                <hr>
+                <p>
+                    <strong>Estande da BTP:</strong> 
+                    Rua 12, nº 50
+                </p>
+                <p>
+                    <strong>Estande da ModalGR:</strong> 
+                    Rua 3, nº 60
+                </p>
+                <br>
+                Para se credenciar na Intermodal 2019
+                <br>
+                <a class="btn btn-sm btn-cadastre text-uppercase mt-1" href="https://www.euvou.net.br/INTERMODALSOUTHAMERICA2019/home" target="_blank">Clique aqui</a>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <!-- <div class="col-12 equipe-topo">
+            </div>
+            <div class="col-12 equipe text-white pb-4">
+                <h3 class="text-uppercase text-white">
+                    Equipe
+                </h3>
+                <div class="row mt-3">
+                    <div class="col-md-6 col-xs-12">
+                        <h5 class="text-uppercase my-3">Mentores</h5>
+                        <div class="row">
+                            <div class="mx-auto">
+                                <div class="float-left mx-3">
+                                    <img src="images/equipe/nestor.png" alt="Nestor">
+                                    <p>
+                                        Nestor Simões
+                                    </p>
+                                </div>
+                                <div class="float-left mx-3">
+                                    <img src="images/equipe/nestor.png" alt="Nestor">
+                                    <p>
+                                        Nestor Simões
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h5 class="text-uppercase my-3">Jurados</h5>
+                        <div class="row">
+                            <div class="mx-auto">
+                                <div class="float-left mx-3">
+                                    <img src="images/equipe/nestor.png" alt="Nestor">
+                                    <p>
+                                        Nestor Simões
+                                    </p>
+                                </div>
+                                <div class="float-left mx-3">
+                                    <img src="images/equipe/nestor.png" alt="Nestor">
+                                    <p>
+                                        Nestor Simões
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-md-6 col-sm-12 regulamento pt-5 text-white">
+                <h3 class="text-uppercase text-white">
+                    Vamos ao regulamento do hackathon?
+                </h3>
+                <div class="row mt-5">
+                    <div class="col-6 pb-3 mt-2 text-right">
+                        <a href="regulamento.pdf" target="_blank">
+                            <img class="img-fluid capa-regulamento" src="images/capa-regulamento.jpg" alt="Download Regulamento">
+                        </a>
+                    </div>
+                    <div class="col-6 text-left mt-2">
+                        <p>Para tornar sua ideia uma das melhores do porto de Santos, será necessário ler o regulamento antes de fazer sua inscrição no hackathon.</p>
+                        <br>
+                        <p class=" text-center">
+                            <a href="regulamento.pdf" target="_blank" class="btn download">
+                                <img src="images/icons/download.png" alt="Download Regulamento">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 local pt-5 text-white">
+                <h3 class="text-uppercase text-white">
+                    Onde será a Maratona?
+                </h3>
+                <div class="row mt-5">
+                    <div class="col-12 mt-2">
+                        <p>
+                            <strong>UNIP Santos</strong>
+                        </p>
+                        <p>
+                            Av. Francisco Manoel - Vila Mathias
+                        </p>
+                        <a href="https://www.google.com/maps/place/Unip+Santos+-+Campus+II+-+Rangel/@-23.943436,-46.331882,15z/data=!4m2!3m1!1s0x0:0x6f43dba55e64599?ved=2ahUKEwio1o-k45jgAhXLmq0KHYmQDiQQ_BIwEnoECAUQCA"
+                            data-hover="MAPA"><span><img src="images/unip.jpg" alt="Unip"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 equipe-fim">
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col-12 mb-4">
+                <h3 class="text-uppercase">
+                    Realização
+                </h3>
+            </div>
+            <div class="offset-md-4 col-md-2 col-sm-12 pt-4">
+                <a href="http://btp.com.br" target="_blank"><img class="img-fluid" src="images/btp.png" alt="Logo BTP"></a>
+            </div>
+            <div class="col-md-2 col-sm-12 mt-3 pt-2">
+                <a href="http://www.modalgr.com.br" target="_blank"><img class="img-fluid" src="images/modalgr.png" alt="Logo Modal GR"></a>
+            </div>
+        </div>
+        <div class="row text-center my-5">
+            <div class="col-12 mb-2 mt-5">
+                <h3 class="text-uppercase">
+                    Apoio
+                </h3>
+            </div>
+            <div class="offset-md-4 col-md-2 col-sm-12 mt-3 pt-4">
+                <a href="https://www.unip.br" target="_blank"><img class="img-fluid" src="images/unip.png" alt="Logo UNIP"></a>
+            </div>
+			<div class="col-md-2 col-sm-12 mt-3">
+                <a href="https://www.ibm.com/br-pt/?ar=1" target="_blank"><img class="img-fluid" src="images/ibm.jpg" alt="Logo IBM"></a>
+            </div>
+        </div>
+    </div>
+    <footer class="d-flex justify-content-center text-center">
+        <div class="align-self-end d-none d-xl-block">
+            <img class="container" src="images/containres.png" alt="Imagem de containers">
+        </div>
+        <div class="flex-fill px-5 pt-3  align-self-center">
+            <img class="logo mb-3" src="images/btpcode.png" alt="Logo BTP Code">
+            <br>
+            <img class=" mb-2" src="images/icons/clock.png" alt="Relógio">
+            <br>
+            <span class="text-uppercase">Countdown</span>
+            <p class="countdown text-uppercase mt-3 mb-0" id="countdown">
+            </p>
+        </div>
+        <div class="d-none d-xl-block align-self-end">
+            <img class="container" src="images/containres2.png" alt="Imagem de containers">
+        </div>
+    </footer>
+
+    <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="modalCadastro" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header pt-3">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-white">
+
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/jquery.loadingModal.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var divHeight = ($('#container2').height()) + 320;
+            $('#wrapper').css('min-height', divHeight + 'px');
+            $("#telefone").mask("(00)0000-00009");
+            $("#datanascimento").mask("00/00/0000");
+            $("#telefone1").mask("(00)0000-00009");
+            $("#datanascimento1").mask("00/00/0000");
+            $('#modalCadastro').on('show.bs.modal', function (e) {
+                $('.modal-body').load("modal-cadastro.html");
+            });
+        });
+    </script>
+    <script src="js/countdown.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136099400-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+
+  gtag('config', 'UA-136099400-1');
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,373 @@
+<div id="carouselCadastro" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+            <p>
+                Você está preparado para <br> participar do <span>HACKATHON</span> no <br> maior
+                porto da América Latina?
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase" type="button" data-target="#carouselCadastro"
+                data-slide-to="1">
+                Vamos Nessa!
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p>
+                Você quer participar com um time ou não?
+            </p>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/icons/team.png" alt="Time"><br>
+                    <button class="btn btn-cadastro px-5 text-uppercase mt-3" type="button" data-target="#carouselCadastro"
+                        data-slide-to="2">
+                        Time
+                    </button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="images/icons/solo.png" alt="Sozinho"><br>
+                    <button class="btn btn-cadastro px-5 text-uppercase mt-3" type="button" data-target="#carouselCadastro"
+                        data-slide-to="11">
+                        Sozinho
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Primeiro escolha o <span>nome do time</span>:
+            </p>
+            <input id="nomeTime" type="text" class="w-100">
+            <button id="btnEscolhaTime" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button">
+                Próximo
+            </button>
+            <p id="ErroNomeTime" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Agora precisamos de um <span>e-mail</span> para enviar informações importantes ao
+                time:
+            </p>
+            <input id="emailTime" type="email" id="email" class="w-100" maxlength="150">
+            <button id="btnEmailTime" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button">
+                Próximo
+            </button>
+            <p id="ErroMailTime" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Vamos aos <span>integrantes</span>. Um time pode ser formado de 1 até 4 pessoas.
+                <br>
+                <br>
+                Vamos cadastrá-los.
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-target="#carouselCadastro"
+                data-slide-to="5">
+                Vamos
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Integrante
+            </p>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="nomeITime" type="text" class="w-100" placeholder="NOME" maxlength="150">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input id="dataNascimentoITime" type="text" class="w-100" id="datanascimento" placeholder="DATA DE NASCIMENTO" onfocus="(this.type='date')">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input id="telefoneITime" type="text" class="w-100" id="telefone" placeholder="TELEFONE COM DDD"
+                        data-mask="(00) 0000-0000" data-mask-selectonfocus="true">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-2 col-sm-12">
+                    <input id="rgITime" type="text" class="w-100" placeholder="R.G." maxlength="11">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input id="cursoITime" type="text" class="w-100" placeholder="FORMAÇÃO (CURSO)" maxlength="150">
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <input id="universidadeITime" type="text" class="w-100" placeholder="UNIVERSIDADE" maxlength="150">
+                </div>
+                <div class="col-lg-5 col-sm-12">
+                    <input id="deficienciaITime" type="text" class="w-100" placeholder="PESSOA COM DEFICIÊNCIA? QUAL?"
+                        maxlength="150">
+                </div>
+            </div>
+            <button id="btnProximoIntegrante" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button" data-target="#carouselCadastro" data-slide-to="6">
+                Próximo
+            </button>
+            <p id="erroCadastroTime" class=alertaMensagem></p>
+        </div>
+        <div class="carousel-item text-center">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="linkedin" type="text" class="w-100" placeholder="LINKEDIN" maxlength="150">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <input id="git" type="text" class="w-100" placeholder="PORTFÓLIO OU GIT" maxlength="150">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 text-left pt-3">
+                    
+                    <span style="vertical-align: top">CATEGORIA:</span>
+                
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="dev" name="cat" checked />
+                        <label for="dev">Dev</label>
+                    </div>
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="design" name="cat" />
+                        <label for="design">Design</label>
+                    </div>
+
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="bizdev" name="cat" />
+                        <label for="bizdev">Biz Dev</label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 pt-2">
+                    <input id="emailCandidato" type="email" class="w-100" placeholder="EMAIL DO CANDIDATO" maxlength="150">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="experiencia" type="text" class="w-100" placeholder="EXPERIÊNCIAS ANTERIORES" maxlength="200">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <input id="comunidade" type="text" class="w-100" placeholder="COMUNIDADE DEV" maxlength="150">
+                </div>
+            </div>
+            <p id="ErroMailIntegrate" class="alertaMensagem"></p>
+            <button id="btnFinalCadastroIntegrante2" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button" data-target="#carouselCadastro"
+                data-slide-to="7">
+                Próximo
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Integrantes: <small></small>
+            </p>
+            <p>
+                <button id="btnAdicionarOutro" class="btn btn-add-participante" type="button" data-target="#carouselCadastro"
+                    data-slide-to="5">
+                    +
+                </button>
+                <br>
+                ADICIONAR OUTRO INTEGRANTE
+                <br>
+                <small>ou</small>
+            </p>
+            <button id="btnFinalizarTime" class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-target="#carouselCadastro"
+                data-slide-to="8">
+                Finalizar
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Confirme as informações:
+                <br>
+                <br>
+                <small>
+                    Time: <span id="spanTime"></span>
+                    <br>
+                    E-mail: <span id="spanEmailTime"></span>
+                    <br>
+                    Integrantes: <span id="spanIntegrantesTime"></span>
+                </small>
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-target="#carouselCadastro"
+                data-slide-to="9">
+                Confirmo
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Leu o <span><a href="regulamento.pdf" target="_blank">regulamento</a></span>? É muito importante.
+                <br>
+                <div class="row">
+                    <div class="col-1 text-right">
+                        <input type="checkbox" id="confirmaregulamento">
+                    </div>
+                    <div class="col-10 text-left">
+                        <label for="confirmaregulamento">
+                            <small>Confirmo que li a regulamentação e estou ciente de todos meus
+                                direitos e deveres ao participar desse evento.</small>
+                        </label>
+                    </div>
+                </div>
+            </p>
+            <button id="btnConfirmarTime" class="btn btn-cadastro px-5 text-uppercase mt-2" type="button">
+                Confirmo
+            </button>
+            <p id="erroCheck" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p>
+                <small id="parabensTime">Parabéns,</small>
+                <br>
+                <h2><span id="spanSucessoTime"></span></h2>
+                <br>
+                <small id="infoCadastroTime">O cadastro foi realizado com sucesso. Um e-mail será enviado com mais
+                    informações.</small>
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-dismiss="modal" aria-label="Close">
+                Fechar
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Primeiro escolha o <span>nome do seu time</span>:
+            </p>
+            <input id="nomeTimeSozinho" type="text" class="w-100" maxlength="100">
+            <button id="btnNomeTimeSozinho" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button">
+                Próximo
+            </button>
+            <p id="Erro" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Agora precisamos de um <span>e-mail</span> para enviar informações importantes para
+                você:
+            </p>
+            <input id="nomeEmailSoznho" type="email" id="email" class="w-100" maxlength="150">
+            <button id="btnEmailSozinho" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button">
+                Próximo
+            </button>
+            <p id="ErroMail" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Informações
+            </p>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="nomeIntegranteSo" type="text" class="w-100" maxlength="150" placeholder="NOME">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input type="text" class="w-100" id="datanascimento1" placeholder="DATA DE NASCIMENTO" onfocus="(this.type='date')">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input type="text" class="w-100" id="telefone1" placeholder="TELEFONE COM DDD" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-2 col-sm-12">
+                    <input id="rgSo" type="text" class="w-100" placeholder="R.G." maxlength="11">
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <input id="cursoSo" type="text" class="w-100" placeholder="FORMAÇÃO (CURSO)" maxlength="150">
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <input id="universidadeSo" type="text" class="w-100" placeholder="UNIVERSIDADE" maxlength="150">
+                </div>
+                <div class="col-lg-5 col-sm-12">
+                    <input id="deficienciaSo" type="text" class="w-100" placeholder="PESSOA COM DEFICIÊNCIA? QUAL?"
+                        maxlength="100">
+                </div>
+            </div>
+            <button id="btnCadastroIntegrante" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button"
+                data-target="#carouselCadastro" data-slide-to="14">
+                Próximo
+            </button>
+            <p id="erroCadastro" class=alertaMensagem></p>
+        </div>
+        <div class="carousel-item text-center">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="linkedin2" type="text" class="w-100" placeholder="LINKEDIN" maxlength="150">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <input id="git2" type="text" class="w-100" placeholder="PORTFÓLIO OU GIT" maxlength="150">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-left pt-4">
+                    
+                    <span style="vertical-align: top">CATEGORIA:</span>
+                
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="dev2" name="someGroupName" checked />
+                        <label for="dev2">Dev</label>
+                    </div>
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="design2" name="someGroupName" />
+                        <label for="design2">Design</label>
+                    </div>
+
+                    <div class="icheck-midnightblue icheck-inline">
+                        <input type="radio" id="bizdev2" name="someGroupName" />
+                        <label for="bizdev2">Biz Dev</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <input id="experiencia2" type="text" class="w-100" placeholder="EXPERIÊNCIAS ANTERIORES" maxlength="200">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <input id="comunidade2" type="text" class="w-100" placeholder="COMUNIDADE DEV" maxlength="150">
+                </div>
+            </div>
+            <button id="btnFinalCadastroIntegrante" class="btn btn-cadastro px-5 text-uppercase mt-5" type="button" data-target="#carouselCadastro"
+                data-slide-to="15">
+                Próximo
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Confirme as informações:
+                <br>
+                <br>
+                <small>
+                    Time: <span id="timeSozinho"></span>
+                    <br>
+                    E-mail: <span id="emailSozinho"></span>
+                    <br>
+                    Nome: <span id="NomeSozinho"></span>
+                </small>
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-target="#carouselCadastro"
+                data-slide-to="16">
+                Confirmo
+            </button>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="text-left">
+                Leu o <span><a href="regulamento.pdf" target="_blank">regulamento</a></span>? É muito importante.
+                <br>
+                <div class="row">
+                    <div class="col-1 text-right">
+                        <input type="checkbox" id="confirmaregulamento2">
+                    </div>
+                    <div class="col-10 text-left">
+                        <label for="confirmaregulamento">
+                            <small>Confirmo que li a regulamentação e estou ciente de todos meus
+                                direitos e deveres ao participar desse evento.</small>
+                        </label>
+                    </div>
+                </div>
+            </p>
+            <button id="btnConfirmarIntegrante" class="btn btn-cadastro px-5 text-uppercase mt-2" type="button">
+                Confirmo
+            </button>
+            <p id="erroCheckRegulamento" class="alertaMensagem"></p>
+        </div>
+        <div class="carousel-item text-center">
+            <p>
+                <small id="parabensIntegrante">Parabéns,</small>
+                <br>
+                <h2><span id="nomeTImeConfirmacao"></span></h2>
+                <br>
+                <small id=infoCadastroIntegrante>O cadastro foi realizado com sucesso. Um e-mail será enviado com mais
+                    informações.</small>
+            </p>
+            <button class="btn btn-cadastro px-5 text-uppercase mt-2" type="button" data-dismiss="modal" aria-label="Close">
+                Fechar
+            </button>
+        </div>
+    </div>
+
+    <script src="js/cadastro.js"></script>

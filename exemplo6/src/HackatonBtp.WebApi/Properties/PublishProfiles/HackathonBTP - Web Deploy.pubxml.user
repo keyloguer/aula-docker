@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFGdiy3d3PkqkUIpqP1ZCkwAAAAACAAAAAAAQZgAAAAEAACAAAAC00Z6CmUr0p/eq0a/PxmWA8UmNOCOPYmvhs2/dNyj/DgAAAAAOgAAAAAIAACAAAAC1SRYJrReoStiTtIZjvueaEGIUUvo45aat6EiFkopdsoAAAABnua1D5yY2M6YwFCbeXoHeBCKF1f52M52A0SxAcZj+9kN5uJQvKKYQfwujmxFnNXlveW0W57kz1M95YnJmL0d9Unj/4Ty+nhA3JvZu5VTmdFtugTul/Nvy+GBYcXr8JpO8QkDCqwMRCtgfuXDphDLttRLy6MT3V8yptNePwZv9EEAAAAC/DRPRK5A7uaTHMsWwXwg2MSgcJCS0otDDPJLhgx6NGvwtCfuI9gYsa9QHetgR3DcqQj3DGciUwVSt7U40T4Ma</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BtpConnectionString">
+      <Value>Data Source=tcp:hackathonbtpdbserver.database.windows.net,1433%3bInitial Catalog=hackathon_db%3bUser Id=modalgr%40hackathonbtpdbserver%3bPassword=Modal%40btp2019</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\bin\Release\netcoreapp2.1\HackathonBtp.Data.deps.json
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\bin\Release\netcoreapp2.1\HackathonBtp.Data.dll
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\bin\Release\netcoreapp2.1\HackathonBtp.Data.pdb
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\bin\Release\netcoreapp2.1\HackathonBtp.Domain.dll
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\bin\Release\netcoreapp2.1\HackathonBtp.Domain.pdb
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.csproj.CopyComplete
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.dll
+C:\Users\User\Desktop\Hackathon\src\HackathonBtp.Data\obj\Release\netcoreapp2.1\HackathonBtp.Data.pdb

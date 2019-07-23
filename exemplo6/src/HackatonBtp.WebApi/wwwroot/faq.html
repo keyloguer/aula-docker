@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/progress-tracker.css">
+
+    <title>F.A.Q. - Hackathon BTP:CODE</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light text-center">
+            <div class="container text-uppercase">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/btpcode.png" alt="BTP Code" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="faq.html">F.A.Q.<span class="sr-only">(atual)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <button class="btn btn-sm btn-cadastre text-uppercase mt-1" type="button" data-toggle="modal"
+                            data-target="#modalCadastro">Cadastre-se</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid faq-titulo">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="text-uppercase mt-5">
+                        F.A.Q.
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid faq">
+        <div class="container pt-2 pb-5">
+            <div class="row pt-2 text-white">
+                <div class="col-lg-1 my-3 col-md-12 text-center">
+                    <span>?</span>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <p><strong>1. O QUE É UM HACKATHON?</strong></p>
+                    <p>
+                        A união das palavras "hacking" e "maratona" significa a reunião de diversos times de desenvolvimento com o propósito de solucionar um ou diversos problemas através de ideias criativas e desenvolvimento de softwares.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row pt-2 text-white">
+                <div class="col-lg-1 my-3 col-md-12 text-center">
+                    <span>?</span>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <p><strong>2. O QUE PRECISO LEVAR?</strong></p>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row pt-2 text-white">
+                <div class="col-lg-1 my-3 col-md-12 text-center">
+                    <span>?</span>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <p><strong>3. QUEM PODE PARTICIPAR?</strong></p>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row pt-2 text-white">
+                <div class="col-lg-1 my-3 col-md-12 text-center">
+                    <span>?</span>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <p><strong>4. COMO POSSO PARTICIPAR?</strong></p>
+                    <p>
+                        Para participar você só precisar fazer o cadastro aqui mesmo no site.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row pt-2 text-white">
+                <div class="col-lg-1 my-3 col-md-12 text-center">
+                    <span>?</span>
+                </div>
+                <div class="col-lg-11 col-md-12">
+                    <p><strong>5. SOU OBRIGADO A IR NA INTERMODAL 2019?</strong></p>
+                    <p>
+                        Não. Na Intermodal 2019 ocorrerá um esquenta no estande da BTP para quem quiser participar, a divulgação do tema do evento e a retirada do kit no estande da Modal GR.
+                        A divulgação do tema também ocorrerá em nosso site e a retirada do kit poderá ser feita no mesmo dia do Hackathon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="d-flex justify-content-center text-center">
+        <div class="align-self-end d-none d-xl-block">
+            <img class="container" src="images/containres.png" alt="Imagem de containers">
+        </div>
+        <div class="flex-fill px-5 pt-3  align-self-center">
+            <img class="logo mb-3" src="images/btpcode.png" alt="Logo BTP Code">
+            <br>
+            <img class=" mb-2" src="images/icons/clock.png" alt="Relógio">
+            <br>
+            <span class="text-uppercase">Countdown</span>
+            <p class="countdown text-uppercase mt-3 mb-0" id="countdown">
+            </p>
+        </div>
+        <div class="d-none d-xl-block align-self-end">
+            <img class="container" src="images/containres2.png" alt="Imagem de containers">
+        </div>
+    </footer>
+    <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="modalCadastro" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header pt-3">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-white">
+                   
+                </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var divHeight = ($('#container2').height()) + 320;
+            $('#wrapper').css('min-height', divHeight + 'px');
+            $("#telefone").mask("(00)0000-00009");
+            $("#datanascimento").mask("00/00/0000");
+            $("#telefone1").mask("(00)0000-00009");
+            $("#datanascimento1").mask("00/00/0000");
+            $('#modalCadastro').on('show.bs.modal', function (e) {
+                $('.modal-body').load("modal-cadastro.html");
+            });
+        }); 
+    </script>
+</body>
+
+</html>
